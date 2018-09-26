@@ -1,0 +1,26 @@
+.container {
+	width: 98.5vw;
+	height: 99vh;
+	border: solid 3px hsl(60, 80%, 50%);
+	margin: 0 auto;
+	display: flex;
+  	justify-content: center; /*horizont - center*/
+  	align-items: center; /*vertical - center*/
+}
+.circle {
+	width: 80vmin;
+	height: 80vmin;
+	border-radius: 50%;
+}
+
+.ex1 {
+	/*background-image: radial-gradient(circle, color1 0%, color 2 50%, color 3 100%);*/
+	background-image: radial-gradient(circle, hsl(0, 50%, 50%) 0%, hsl(240, 50%, 50%) 100%);
+}
+.ex2 {
+	background-image: radial-gradient(circle, hsl(0, 50%, 100%) 0%, hsl(0, 100%, 50%) 100%);
+}
+.ex3 {
+	background-image: radial-gradient(circle, hsl(0, 50%, 50%) 0%, hsl(60, 50%, 50%) 25%, hsl(120, 50%, 50%) 50%, 
+		hsl(180, 50%, 50%) 75%, hsl(240, 50%, 50%) 100%);
+}
